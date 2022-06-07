@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+}
+
+.container {
+margin: 0 auto;
+}
+
+.perfil-modelos {
+
+}
+
+.card-modelo {
+    padding: 50px;
+    max-width: 100%;
+    width: 800px;
+    margin: 30px auto 0 auto ;
+    text-align: center;
+    border: 2px solid #E2E2EC;
+    box-shadow: 0px 0px 50px -15px rgba(0, 0, 0, 0.09);
+    border-radius: 8px;
+}
+
+.foto-perfil > img{
+    border-radius:50% ;
+    margin: 30px 0px;
+    max-width: 100%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.nome-perfil {
+    margin: 0 0 30px 0;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.texto-perfil {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.descricao-texto-perfil {
+    font-size: 20px;
+  line-height: 32px;
+}
